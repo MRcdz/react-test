@@ -2,7 +2,13 @@
   text-align: center;
 }
 
-.App h1{
-	background-color: green;
-	color: aliceblue;
+.card-box {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.card{
+	width: 400px;
+	margin-bottom: 20px;
 }
